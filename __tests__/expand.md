@@ -1,0 +1,6 @@
+1) It is important to put thought into IDs and Classes because who knows who might work on the code in the future, so they should be descriptive. Also, IDs take importance over Classes, so the architecture of the overall program should be thought out.
+2) Data attributes are custom attributes that can be added to HTML elements. They are prefixed with "data-" and can be useful for things like storing custom data, add seperation to code structure, and allow things to be manipulated in JS. They are accessed with getAttribute(). One implication of using them is that they can be beneficial for things like search engines.
+3) A DOM fragment is a standalone DOM tree that acts as a container for multiple DOM elements. They are powerful because it is more efficient to manipulate a DOM fragment then attatch it.
+4) Virtual DOM is an abstract representation of actual DOM. It improves performance, reduces repaints, and has better cross-browser/platform capabilities. However, it uses more memory, and introduces complexity.
+5) Because it interferes with the 'class' keyword in JS which is used to define classes.
+6) addEventListener is flexible and can handle many events, it also seperates HTML and JS. However it is more verbose. onClick is simple and can be easily done in HTML, but it is limited to a single event type per element, and mixes HTML and JS.
